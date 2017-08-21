@@ -1,0 +1,39 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  background: rgb(40,40,40);
+  font-family: 'DS-Digital';
+  color:white;
+  font-size: 500%;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  flex-flow:column;
+}
+
+.nsexy{
+  padding: 0 10px;
+  margin: 5px 0 5px 5px;
+  border: 1px solid gray;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+button{
+  margin: 5px 0;
+  padding: 15px;
+  font-size: 40%;
+  background: rgb(40,40,40);
+  margin: 2px solid gray;
+  color:white;
+}
